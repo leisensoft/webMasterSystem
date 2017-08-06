@@ -4,9 +4,10 @@
 
 程序使用thinkphp+jqueryeasyui实现
 
-##程序预览图 *程序主界面 <br/>
+程序预览图 <br/> 
+
+程序主界面 <br/>
 ![image]（https://github.com/leisensoft/webMasterSystem/blob/master/1_web_preview_img/%E7%BD%91%E7%AE%A1%E7%B3%BB%E7%BB%9F%E4%B8%BB%E9%A1%B5.png?raw=true） 
 
-<br/>*ping目标主机 <br/>
-
+<br/>ping目标主机 <br/>
 ！[image](https://github.com/leisensoft/webMasterSystem/blob/master/1_web_preview_img/%E7%BD%91%E7%AE%A1%E7%B3%BB%E7%BB%9Fping%E7%9B%AE%E6%A0%87%E4%B8%BB%E6%9C%BA.png?raw=true)
