@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>  
+ <html>  
+ <head>  
+ <meta charset="utf-8"/>  
+ <title>绿境BLOG标准HTML页面</title>  
+ <meta name="keywords" content=""/>  
+ <meta name="description" content=""/>  
+ <meta name="viewport" content="width=device-width"/>  
+ <link rel="stylesheet" href="__PUBLIC__/css/reset.css" type="text/css" rel="stylesheet" />  
+ <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/jquery.dataTables.css"/>
+ <link rel="shortcut icon" href="img/favicon.ico"/>  
+ <link rel="apple-touch-icon" href="img/touchicon.png"/>  
+ <script src="__PUBLIC__/js/dataTables/jquery.js"></script>
+ <script type="text/javascript" language="javascript" src="__PUBLIC__/js/dataTables/jquery.dataTables.js"></script>
+<script type="text/javascript" language="javascript" class="init">
+jQuery(document).ready(function($) {                
+
+     $('#example').dataTable( {
+				"ajax": "__PUBLIC__/arrays.txt",
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+	} );
+		
+	$('#userAccount').keyup(function(){				  //登陆弹窗ajax验证
+		 var userAccount = $('#userAccount').val(); 
+		 $.post("__ROOT__/index.php/Home-User-checkLogin",{userAccount:userAccount},function(data){
+			  if(''!=data)
+			  $('#loginDiv').html(data);
+		 });
+	});
+	
+})
+</script>
+ </head> 
+ <body>
+ 	<table id="example" class="display" cellspacing="0" width="100%">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Office</th>
+						<th>Extn.</th>
+						<th>Start date</th>
+						<th>Salary</th>
+					</tr>
+				</thead>
+
+				<tfoot>
+					<tr>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Office</th>
+						<th>Extn.</th>
+						<th>Start date</th>
+						<th>Salary</th>
+					</tr>
+				</tfoot>
+	</table>
+
+ </body>  
+ </html> 

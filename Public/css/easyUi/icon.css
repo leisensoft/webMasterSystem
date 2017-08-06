@@ -1,0 +1,93 @@
+.icon-blank{
+	background:url('../../img/easyUiIcons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('../../img/easyUiIcons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('../../img/easyUiIcons/pencil.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('../../img/easyUiIcons/clear.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('../../img/easyUiIcons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('../../img/easyUiIcons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('../../img/easyUiIcons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('../../img/easyUiIcons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('../../img/easyUiIcons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('../../img/easyUiIcons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('../../img/easyUiIcons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('../../img/easyUiIcons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('../../img/easyUiIcons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('../../img/easyUiIcons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('../../img/easyUiIcons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('../../img/easyUiIcons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('../../img/easyUiIcons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('../../img/easyUiIcons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('../../img/easyUiIcons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('../../img/easyUiIcons/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('../../img/easyUiIcons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('../../img/easyUiIcons/lock.png') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('../../img/easyUiIcons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('../../img/easyUiIcons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('../../img/easyUiIcons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('../../img/easyUiIcons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('../../img/easyUiIcons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('../../img/easyUiIcons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('../../img/easyUiIcons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('../../img/easyUiIcons/large_chart.png') no-repeat center center;
+}

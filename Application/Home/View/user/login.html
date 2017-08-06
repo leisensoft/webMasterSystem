@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>  
+ <html>  
+ <head>  
+ <meta charset="utf-8"/>  
+ <title>绿境BLOG标准HTML页面</title>  
+ <meta name="keywords" content=""/>  
+ <meta name="description" content=""/>  
+ <meta name="viewport" content="width=device-width"/>  
+ <link rel="stylesheet" href="__PUBLIC__/css/reset.css" type="text/css" rel="stylesheet" />  
+ <link rel="shortcut icon" href="img/favicon.ico"/>  
+ <link rel="apple-touch-icon" href="img/touchicon.png"/>  
+ <script src="__PUBLIC__/js/jquery.min.js"></script>
+ <script>
+jQuery(document).ready(function($) {                
+
+	$('#userAccount').keyup(function(){				  //登陆弹窗ajax验证
+		 var userAccount = $('#userAccount').val(); 
+		 $.post("__ROOT__/index.php/Home-User-checkLogin",{userAccount:userAccount},function(data){
+			  if(''!=data)
+			  $('#loginDiv').html(data);
+		 });
+	});
+	
+})
+</script>
+ </head> 
+ <body>
+<div id="loginDiv"><input type="test" id="userAccount" /></div>
+ </body>  
+ </html> 
